@@ -1,53 +1,43 @@
-# Final_Project
-=======
+<div align="center">
 
-# Presentation
+# Final Project - Common Issues & Delays in Air Travel
 
-### ✓ Selected topic
-
- Delays in air lines.
-
-### ✓ Reason why they selected their topic
+</div>
 
 
-Predicting delays in the airline industry is a critical challenge that can have significant impacts on both the airlines and their customers. Delays can be caused by a variety of factors, including weather, maintenance issues, and airport congestion. Understanding and accurately predicting these delays can help airlines optimize their operations, improve customer satisfaction, and reduce costs.
 
-In this project, we will explore a dataset of flights from __________ and use statistical and machine learning techniques to predict whether a flight will be delayed. We will consider a range of potential factors that may influence delay probability, including ...
-
-### - [ ]Description of Source of Data
-
-### ✓ Questions they hope to answer with the data
-
- The goal of this project is to develop a predictive model that can accurately forecast delays for the airline, allowing them to proactively manage their operations and minimize the impact of delays on their customers.
-
-# GitHub
+## <b>Reason why we selected this topic</b>
 
 
-### Main Branch
-✓ Includes a README.md
+For the past century, air travel became the most popular and convenient means of travel for long distances. Nevertheless, it is not uncommon to encounter various problems along the way, including aircraft technical issues and mishandled luggage. Additionally, the most common issue travelers face are delays and cancellations that can be caused by inclement weather or overbooking. 
+
+Despite all of these issues, air travel still remains as the most popular choice for many people, therefore, understanding these issues and the data behind it can be hugely beneficial for future travel.  
 
 
-### README.md
-README.md must include:
-- [ ] Description of the communication
-protocols
 
 
-### Individual Branches
+## <b>Description of Source of Data</b>
 
-- [ ] At least one branch for each team
-member
-- [ ] Each team member has at least four
-commits from the duration of the first
-segment
+We will explore multiple datasets of flight information and use statistical and machine learning techniques to predict whether an issue may arise while traveling.
 
-Note: The descriptions and
-explanations required in all other
-project deliverables should also be in
-your README.md as part of your
-outline, unless otherwise noted.
+The primary source of the data will be exported from raw CSV files by the [Bureau of Transportation](https://transtats.bts.gov/Fields.asp?gnoyr_VQ=FGK) and the [Federal Aviation Administration](https://www.asias.faa.gov/apex/f?p=100:1::::::).
 
 
-# DataBase
 
-# Dashboard
+## <b>Main Topics We Hope to Address with the Data</b>
+
+With the datasets provided, we hope to create comprehensive analysis and visualizations for:
+
+* Overall analysis and comparison of the most common issues among airlines in the US
+* Probability of flight interruptions and problems
+* Correlation of flight accidents with time of day, cities, etc... 
+* Flight issues related to inclement weather 
+* Mishandled baggage
+
+
+
+## <b>Description of Communication Protocols</b>
+
+As the primary source of communication, a Slack group was created. Additionally, we will utilize the alloted time in class meetings to discuss our projects/assignments collaboratively.
+
+
