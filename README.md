@@ -38,6 +38,13 @@ With the datasets provided, we hope to create comprehensive analysis and visuali
 
 ## <b>Description of Communication Protocols</b>
 
-As the primary source of communication, a Slack group was created. Additionally, we will utilize the alloted time in class meetings to discuss our projects/assignments collaboratively.
+As the primary source of communication, a Slack group was created. Additionally, we will utilize the allotted time in class meetings to discuss our projects/assignments collaboratively.
 
 
+## <b>Analysis of Mishandled Baggage</b>
+
+Mishandled baggage is one of the common issue faced by travelers all around the world. When baggage is not handled properly, it can lead to inconvenience and frustration for the traveler, who may be left without essential items or personal belongings for an extended period of time. Using data from the Bureau of Transportation for 2019, 2020, and 2021, an analysis was created to discover the following key points: 
+* In 2019, 0.6% of all checked baggage was mishandled. This percentage decreased in 2020 to 0.42%  most likely due to the global pandemic and general decrease in travel. In 2021 there was a significant increase, with approximately 0.5% of checked baggage being mishandled.
+* According to the analysis, the percentage of mishandled baggage varied throughout the year, with the highest percentage occurring in June at 0.63% and the lowest percentage occurring in September at 0.43%. Higher mishandled baggage percentages can be observed during the summer and winter but lower during the spring and fall seasons.
+* The percentage of mishandled baggage also fluctuates based on the airline. Allegiant Air had the lowest percentage of mishandled baggage at 0.16%, while Envoy Air had the highest percentage at 0.86%. 
+* Interestingly, Southwest Airlines had one of the highest number of enplaned baggage while maintaining one of the lowest mishandled baggage percentage at 0.37%. American Airlines has similar enplaned baggage amounts to Southwest Airlines but has the second highest mishandled baggage rate at 0.76%.
