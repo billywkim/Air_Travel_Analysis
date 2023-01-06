@@ -15,7 +15,6 @@ Despite all of these issues, air travel still remains as the most popular choice
 
 
 
-
 ## <b>Description of Source of Data</b>
 
 We will explore multiple datasets of flight information and use statistical and machine learning techniques to predict whether an issue may arise while traveling.
@@ -39,6 +38,21 @@ With the datasets provided, we hope to create comprehensive analysis and visuali
 ## <b>Description of Communication Protocols</b>
 
 As the primary source of communication, a Slack group was created. Additionally, we will utilize the allotted time in class meetings to discuss our projects/assignments collaboratively.
+
+
+
+## <b>Machine Learning</b>
+
+For our analysis, we decided to use Supervised Machine Learning in order to predict airline delays. Supervised Machine Learning is a type of machine learning where the model is trained on labeled data. In the context of predicting airline delays, this means that the model is trained on a dataset that includes information about past flights, such as departure and arrival times, airline, and whether or not the flight was delayed. The goal of the model is to learn from this labeled data and make predictions about whether future flights will be delayed.
+
+Please see Delays_ML folder for our current Machine Learning progress.
+
+
+
+## <b>Database</b>
+
+For our project, we decided to use PGAdmin SQL as our database. PGAdmin SQL is a powerful and scalable database management database system which means it can handle large amounts of data and high volumes of transactions. It is also compatible with a wide range of tools and technologies making it easy to integrate with other systems and applications which will be useful when connecting to our Machine Learning Model.
+
 
 
 ## <b>Analysis of Mishandled Baggage</b>
