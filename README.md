@@ -53,6 +53,10 @@ Please see Delays_ML folder for our current Machine Learning progress.
 
 For our project, we decided to use PGAdmin SQL as our database. PGAdmin SQL is a powerful and scalable database management database system which means it can handle large amounts of data and high volumes of transactions. It is also compatible with a wide range of tools and technologies making it easy to integrate with other systems and applications which will be useful when connecting to our Machine Learning Model.
 
+# ![SQL_Table_Schema](Resources/Screenshots/SQL_Table_Schema.png)<br><br> 
+
+
+# ![SQL_Table_Output](Resources/Screenshots/SQL_Table_Output.png)<br><br> 
 
 
 ## <b>Analysis of Mishandled Baggage</b>
