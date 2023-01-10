@@ -41,6 +41,30 @@ With the datasets provided, we hope to create comprehensive analysis and visuali
 As the primary source of communication, a Slack group was created. Additionally, we will utilize the allotted time in class meetings to discuss our projects/assignments collaboratively.
 
 
+## <b>Flight Delay Prediction Model</b>
+
+Flight delays are a common and frustrating experience for travelers, and being able to predict them in advance could help people plan their travel more effectively. Therefore, we decided to use supervised machine learning to predict whether a flight would arrive with a delay of 15 minutes or more. 
+
+Before implementing a machine learning model, we performed a number of steps to prepare the data for analysis. This process, known as data preprocessing, involved cleaning and transforming the raw data to make it more suitable for modeling. In our case we have decided to drop any rows with null values as well as any columns where all values are null.
+
+In order to successfully run our machine learning model, a wide range of preliminary features were selected, such as: 
+
+* Day of the week/Day of the month: Certain days may be more prone to delays due to factors such as holidays, weather patterns, or air traffic volume
+
+* Airline/Flight Number: This can help identify specific flights or airlines that are more subjective to delays
+
+* Flight origin and destination: Delays at certain airports may be more common due to factors such as congestion or maintenance issues
+
+* Departure time: Flights that depart during peak travel times or in adverse weather conditions may be more prone to delays
+
+Once the data was in a suitable format, we split it into a training set and a testing set. The training set was used to build the model, while the testing set was used to evaluate its performance. This separation is important because it allows us to test the model's ability to adapt to new, unseen data.
+
+To achieve our goal, we decided to test several different approaches to train and evaluate data models. We started with Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier. We then oversampled the data using the RandomOverSampler and SMOTE algorithms, and then under sampled the data using the ClusterCentroids algorithm. Afterwards, a combinatorial approach of over- and under sampling using the SMOTEENN algorithm was deployed.
+
+After comparing all of the models, Balanced Random Forest Classifier performed the best with a balanced accuracy score of 91.5%. The main benefit of this model is its ability to achieve a high level of accuracy, which means that it is able to make correct predictions for a large proportion of the samples in the dataset. Additionally, a Balanced Random Forest Classifier is designed to handle imbalanced datasets, which means that it can perform well even when there is a disproportionate number of samples in one class compared to the other. It is important to note that this model also has its limitations such as overfitting, which means the model might perform well on the training data but poorly on new, unseen data.
+
+This approach allows us to automate the process of predicting delays and to potentially improve upon it over time as new data becomes available.
+
 ## <b>Analysis of Mishandled Baggage</b>
 
 Mishandled baggage is one of the common issue faced by travelers all around the world. When baggage is not handled properly, it can lead to inconvenience and frustration for the traveler, who may be left without essential items or personal belongings for an extended period of time. Using data from the Bureau of Transportation for 2019, 2020, and 2021, an analysis was created to discover the following key points: 
