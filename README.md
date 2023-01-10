@@ -15,7 +15,6 @@ Despite all of these issues, air travel still remains as the most popular choice
 
 
 
-
 ## <b>Description of Source of Data</b>
 
 We will explore multiple datasets of flight information and use statistical and machine learning techniques to predict whether an issue may arise while traveling.
@@ -41,6 +40,7 @@ With the datasets provided, we hope to create comprehensive analysis and visuali
 As the primary source of communication, a Slack group was created. Additionally, we will utilize the allotted time in class meetings to discuss our projects/assignments collaboratively.
 
 
+<<<<<<< HEAD
 ## <b>Flight Delay Prediction Model</b>
 
 Flight delays are a common and frustrating experience for travelers, and being able to predict them in advance could help people plan their travel more effectively. Therefore, we decided to use supervised machine learning to predict whether a flight would arrive with a delay of 15 minutes or more. 
@@ -64,6 +64,26 @@ To achieve our goal, we decided to test several different approaches to train an
 After comparing all of the models, Balanced Random Forest Classifier performed the best with a balanced accuracy score of 91.5%. The main benefit of this model is its ability to achieve a high level of accuracy, which means that it is able to make correct predictions for a large proportion of the samples in the dataset. Additionally, a Balanced Random Forest Classifier is designed to handle imbalanced datasets, which means that it can perform well even when there is a disproportionate number of samples in one class compared to the other. It is important to note that this model also has its limitations such as overfitting, which means the model might perform well on the training data but poorly on new, unseen data.
 
 This approach allows us to automate the process of predicting delays and to potentially improve upon it over time as new data becomes available.
+=======
+
+## <b>Machine Learning</b>
+
+For our analysis, we decided to use Supervised Machine Learning in order to predict airline delays. Supervised Machine Learning is a type of machine learning where the model is trained on labeled data. In the context of predicting airline delays, this means that the model is trained on a dataset that includes information about past flights, such as departure and arrival times, airline, and whether or not the flight was delayed. The goal of the model is to learn from this labeled data and make predictions about whether future flights will be delayed.
+
+Please see Delays_ML folder for our current Machine Learning progress.
+
+
+
+## <b>Database</b>
+
+For our project, we decided to use PGAdmin SQL as our database. PGAdmin SQL is a powerful and scalable database management database system which means it can handle large amounts of data and high volumes of transactions. It is also compatible with a wide range of tools and technologies making it easy to integrate with other systems and applications which will be useful when connecting to our Machine Learning Model.
+
+![SQL_Table_Schema](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_Tables_Schema.PNG)
+
+
+![SQL_Table_Output](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_Table_Output.PNG)
+
+>>>>>>> 2dd398909b9fc47e72260511dc3f9a55e6c85283
 
 ## <b>Analysis of Mishandled Baggage</b>
 
