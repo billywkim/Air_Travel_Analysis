@@ -4,8 +4,6 @@
 
 # Final Project - Common Issues & Delays in Air Travel
 
-![plane_sunset](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Plane_sunset.jpg)
-
 </div>
 
 
@@ -16,6 +14,12 @@
 For the past century, air travel became the most popular and convenient means of travel for long distances. Nevertheless, it is not uncommon to encounter various problems along the way, including aircraft technical issues and mishandled luggage. Additionally, the most common issue travelers face are delays and cancellations that can be caused by inclement weather or overbooking. 
 
 Despite all of these issues, air travel still remains as the most popular choice for many people, therefore, understanding these issues and the data behind it can be hugely beneficial for future travel.  
+
+<div align="center">
+
+![plane_sunset](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Plane_sunset.jpg)
+
+</div>
 
 
 
