@@ -8,7 +8,7 @@
 
 
 
-## <b>Reason why we selected this topic</b>
+## <b>Reason Why We Selected This Topic</b>
 
 
 For the past century, air travel became the most popular and convenient means of travel for long distances. Nevertheless, it is not uncommon to encounter various problems along the way, including aircraft technical issues and mishandled luggage. Additionally, the most common issue travelers face are delays and cancellations that can be caused by inclement weather or overbooking. 
