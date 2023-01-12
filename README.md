@@ -1,8 +1,8 @@
 <div align="center">
 
-# Final Project - Common Issues & Delays in Air Travel
-
 ![banner](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Title_Image.PNG)
+
+# Final Project - Common Issues & Delays in Air Travel
 
 </div>
 
@@ -21,7 +21,7 @@ Despite all of these issues, air travel still remains as the most popular choice
 
 We will explore multiple datasets of flight information and use statistical and machine learning techniques to predict whether an issue may arise while traveling.
 
-The primary source of the data will be exported from raw CSV files by the [Bureau of Transportation](https://transtats.bts.gov/Fields.asp?gnoyr_VQ=FGK), the [Federal Aviation Administration](https://www.asias.faa.gov/apex/f?p=100:1::::::), and [Department of Homeland Security](https://www.dhs.gov/tsa-claims-data).
+The primary source of the data will be exported from raw CSV files by the [Bureau of Transportation](https://transtats.bts.gov/Fields.asp?gnoyr_VQ=FGK), the [Federal Aviation Administration](https://www.asias.faa.gov/apex/f?p=100:1::::::), and the [Department of Homeland Security](https://www.dhs.gov/tsa-claims-data).
 
 
 
