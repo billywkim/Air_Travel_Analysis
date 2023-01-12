@@ -17,8 +17,8 @@
 * [Flight Delay Prediction Model](#Flight-Delay-Prediction-Model)<br>
 * [Database](#Database)<br>
 * [Dashboard](#Dashboard)<br>
-	*[Storyboard](#Storyboard)<br>
-	*[Tableau Visualizations](Tableau-Visualizations)<br>
+     * [Storyboard](#Storyboard)<br>
+     * [Tableau Visualizations](Tableau-Visualizations)<br>
 * [Analysis of Mishandled Baggage](#Analysis-of-Mishandled-Baggage)<br>
 
 
