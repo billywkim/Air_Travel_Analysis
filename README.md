@@ -4,6 +4,8 @@
 
 # Final Project - Common Issues & Delays in Air Travel
 
+![plane_sunset](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Plane_sunset.jpg)
+
 </div>
 
 
@@ -69,6 +71,11 @@ This approach allows us to automate the process of predicting delays and to pote
 
 Please see [Delays_ML](https://github.com/billywkim/Final_Project/blob/main/Delays_ML/Delays_ML.ipynb) for our current Machine Learning progress.
 
+<div align="center">
+
+![multiple_planes](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Multiple_planes.jpg)
+
+</div>
 
 
 ## <b>Database</b>
@@ -89,3 +96,9 @@ Mishandled baggage is one of the common issue faced by travelers all around the 
 * According to the analysis, the percentage of mishandled baggage varied throughout the year, with the highest percentage occurring in June at 0.63% and the lowest percentage occurring in September at 0.43%. Higher mishandled baggage percentages can be observed during the summer and winter but lower during the spring and fall seasons.
 * The percentage of mishandled baggage also fluctuates based on the airline. Allegiant Air had the lowest percentage of mishandled baggage at 0.16%, while Envoy Air had the highest percentage at 0.86%. 
 * Interestingly, Southwest Airlines had one of the highest number of enplaned baggage while maintaining one of the lowest mishandled baggage percentage at 0.37%. American Airlines has similar enplaned baggage amounts to Southwest Airlines but has the second highest mishandled baggage rate at 0.76%.
+
+<div align="center">
+
+![bag_delay](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/baggage_delay.jpg)
+
+</div>
