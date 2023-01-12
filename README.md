@@ -16,6 +16,9 @@
 * [Description of Communication Protocols](#Description-of-Communication-Protocols)<br>
 * [Flight Delay Prediction Model](#Flight-Delay-Prediction-Model)<br>
 * [Database](#Database)<br>
+* [Dashboard](#Dashboard)<br>
+	*[Storyboard](#Storyboard)<br>
+	*[Tableau Visualizations](Tableau-Visualizations)<br>
 * [Analysis of Mishandled Baggage](#Analysis-of-Mishandled-Baggage)<br>
 
 
@@ -93,6 +96,7 @@ Please see [Delays_ML](https://github.com/billywkim/Final_Project/blob/main/Dela
 </div>
 
 
+
 ## <b>Database</b>
 
 For our project, we decided to use PGAdmin SQL as our database. PGAdmin SQL is a powerful and scalable database management database system which means it can handle large amounts of data and high volumes of transactions. It is also compatible with a wide range of tools and technologies making it easy to integrate with other systems and applications which will be useful when connecting to our Machine Learning Model.
@@ -101,6 +105,18 @@ For our project, we decided to use PGAdmin SQL as our database. PGAdmin SQL is a
 
 
 ![SQL_join](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_join.PNG)
+
+
+
+## <b>Dashboard</b>
+
+### <b>Storyboard</b>
+
+An initial draft of our Storyboard created on Google Slides can be found [here](https://docs.google.com/presentation/d/16ui3_aKnWDj3g7POys37TOuYBOLekHT9SUnBKHB52M0/edit#slide=id.gcb9a0b074_1_0). 
+
+### <b>Tableau Visualizations</b>
+
+The main elements and visualizations on the Storyboard were created using Tableau Public. All of the visualizations on Tableau Public can be downloaded [here](https://public.tableau.com/app/profile/william.kim4690/viz/WeatherDelaysbyAirline_16734964116180/Security_Delays). All of these vizualizations are interactable by filtering them through desired airlines, aircraft manufacturers, years, and injury severity.
 
 
 
