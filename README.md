@@ -8,8 +8,19 @@
 
 
 
-## <b>Reason Why We Selected This Topic</b>
+## Table of Contents
 
+* [Reasons Why We Selected This Topic](#Reasons-Why-We-Selected-This-Topic)<br>
+* [Description of Source Data](#Description-of-Source-Data)<br>
+* [Main Topics We Hope to Address with the Data](#Main-Topics-We-Hope-to-Address-with-the-Data)<br>
+* [Description of Communication Protocols](#Description-of-Communication-Protocols)<br>
+* [Flight Delay Prediction Model](#Flight-Delay-Prediction-Model)<br>
+* [Database](#Database)<br>
+* [Analysis of Mishandled Baggage](#Analysis-of-Mishandled-Baggage)<br>
+
+
+
+## <b>Reason Why We Selected This Topic</b>
 
 For the past century, air travel became the most popular and convenient means of travel for long distances. Nevertheless, it is not uncommon to encounter various problems along the way, including aircraft technical issues and mishandled luggage. Additionally, the most common issue travelers face are delays and cancellations that can be caused by inclement weather or overbooking. 
 
