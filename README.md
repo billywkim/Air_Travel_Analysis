@@ -101,6 +101,8 @@ Please see [Delays_ML](https://github.com/billywkim/Final_Project/blob/main/Dela
 
 For our project, we decided to use PGAdmin SQL as our database. PGAdmin SQL is a powerful and scalable database management database system which means it can handle large amounts of data and high volumes of transactions. It is also compatible with a wide range of tools and technologies making it easy to integrate with other systems and applications which will be useful when connecting to our Machine Learning Model.
 
+A screenshot can be seen below using the <b>join method</b> on PGAdmin SQL.
+
 ![SQL_Table_Schema](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_Tables_Schema.PNG)
 
 
