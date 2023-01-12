@@ -78,7 +78,7 @@ For our project, we decided to use PGAdmin SQL as our database. PGAdmin SQL is a
 ![SQL_Table_Schema](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_Tables_Schema.PNG)
 
 
-![SQL_Table_Output](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_Table_Output.PNG)
+![SQL_join](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_join.PNG)
 
 
 

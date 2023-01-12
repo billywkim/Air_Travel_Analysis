@@ -1,0 +1,11 @@
+year,month,carrier,carrier_name,airport,airport_name,arr_flights,arr_del15,carrier_ct,weather_ct,nas_ct,security_ct,late_aircraft_ct,arr_cancelled,arr_diverted,arr_delay,carrier_delay,weather_delay,nas_delay,security_delay,late_aircraft_delay
+2022,10,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",12404.00,2132.00,605.34,107.00,545.39,10.19,864.08,152.00,63.00,204255.00,73289.00,9817.00,31024.00,852.00,89273.00
+2022,9,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",12108.00,2107.00,660.63,124.59,422.95,5.28,893.56,175.00,45.00,200822.00,79696.00,10567.00,20617.00,370.00,89572.00
+2022,8,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",13051.00,2938.00,829.64,217.15,679.58,12.60,1199.03,726.00,153.00,259731.00,101046.00,21063.00,33145.00,636.00,103841.00
+2022,7,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",12680.00,2875.00,862.42,141.91,467.27,9.15,1394.26,298.00,30.00,259180.00,97890.00,12647.00,20655.00,393.00,127595.00
+2022,6,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",12411.00,3137.00,994.64,159.30,559.29,6.97,1416.80,601.00,65.00,273956.00,109056.00,17343.00,26831.00,246.00,120480.00
+2022,5,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",11902.00,2163.00,652.32,208.82,488.08,4.10,809.68,170.00,27.00,195830.00,72815.00,19842.00,26402.00,142.00,76629.00
+2022,4,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",11093.00,1929.00,567.33,77.26,462.20,4.94,817.27,192.00,39.00,164814.00,58478.00,8046.00,21700.00,225.00,76365.00
+2022,3,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",11420.00,1817.00,513.83,46.02,635.78,4.88,616.49,173.00,53.00,152207.00,64390.00,3642.00,27812.00,193.00,56170.00
+2022,2,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",10480.00,1475.00,536.97,56.99,377.97,6.44,496.63,1565.00,29.00,128813.00,56074.00,8899.00,17346.00,371.00,46123.00
+2022,1,AA,American Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",11245.00,1211.00,473.53,45.53,222.40,5.46,464.08,212.00,3.00,110620.00,57206.00,5942.00,8663.00,191.00,38618.00
