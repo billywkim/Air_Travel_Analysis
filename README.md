@@ -10,8 +10,8 @@
 
 ## Table of Contents
 
-* [Reasons Why We Selected This Topic](#Reasons-Why-We-Selected-This-Topic)<br>
-* [Description of Source Data](#Description-of-Source-Data)<br>
+* [Reasons Why We Selected This Topic](#Reason-Why-We-Selected-This-Topic)<br>
+* [Description of Source Data](#Description-of-Source-of-Data)<br>
 * [Main Topics We Hope to Address with the Data](#Main-Topics-We-Hope-to-Address-with-the-Data)<br>
 * [Description of Communication Protocols](#Description-of-Communication-Protocols)<br>
 * [Flight Delay Prediction Model](#Flight-Delay-Prediction-Model)<br>
