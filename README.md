@@ -20,6 +20,10 @@
      * [Storyboard](#Storyboard)<br>
      * [Tableau Visualizations](Tableau-Visualizations)<br>
 * [Accidents Weather Analysis](#Accidents-Weather-Analysis)<br>
+     * [Data Cleaning](#Data-Cleaning)<br>
+     * [Types of Weather Conditions and Their Association with Aviation Accidents](#Types-of-Weather-Conditions-and-Their-Association-with-Aviation-Accidents)<br>
+     * [Frequency of Aviation Accidents with Different Weather Conditions](#Frequency-of-Aviation-Accidents-with-Different-Weather-Conditions)<br>
+     * [Aircraft and Weather Conditions](#Aircraft-and-Weather-Conditions)<br>
 * [Analysis of Mishandled Baggage](#Analysis-of-Mishandled-Baggage)<br>
 
 
@@ -126,9 +130,9 @@ The main elements and visualizations on the Storyboard were created using Tablea
 
 ## <b>Accidents Weather Analysis</b>
 
-Dataset: [here](https://github.com/billywkim/Final_Project/blob/main/Resources/AviationData_Weather.csv)
-
 Aviation accidents in relation to weather is a significant concern for the aviation industry. Weather conditions such as thunderstorms, icing, and turbulence can greatly affect the safety of flights and increase the risk of accidents. In this section, we will explore the types of weather conditions most commonly associated with aviation accidents, the frequency of aviation accidents with different weather conditions, whether certain types of aircraft are more prone to accidents in certain weather conditions, the severity of aviation accidents with different weather conditions, geographical regions that are more prone to aviation accidents due to weather conditions, and specific precautions that can be taken to prevent or mitigate aviation accidents in certain weather conditions.
+
+The dataset for the analysis can be found [here](https://github.com/billywkim/Final_Project/blob/main/Resources/AviationData_Weather.csv)
 
 ![image](https://user-images.githubusercontent.com/110706169/212215561-207c0b20-a926-49e9-b7de-bfe5a69e55f1.png)
 
@@ -168,8 +172,7 @@ Winter: This is typically the coldest time of year in the US, with snow and ice 
 ### Aircraft and Weather Conditions
 ![image](https://user-images.githubusercontent.com/110706169/212218520-241b66c6-bb73-4834-905a-c6488739b888.png)
 
-### Geographical Regions and Weather Conditions
-### Human Factors
+
 
 ## <b>Analysis of Mishandled Baggage</b>
 
