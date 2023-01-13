@@ -52,7 +52,7 @@ The primary source of the data will be exported from raw CSV files by the [Burea
 
 ## <b>Main Topics We Hope to Address with the Data</b>
 
-With the datasets provided, we hope to create comprehensive analysis and visualizations for:
+With the datasets provided, we hope to create comprehensive analysis and visualizations to:
 
 * Understand air traffic volume and trends over past years
 * Explore and compare the most common US airlines and the issues they face
