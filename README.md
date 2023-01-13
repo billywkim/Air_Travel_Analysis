@@ -19,6 +19,7 @@
 * [Dashboard](#Dashboard)<br>
      * [Storyboard](#Storyboard)<br>
      * [Tableau Visualizations](Tableau-Visualizations)<br>
+* [Accidents Weather Analysis](#Accidents-Weather-Analysis)<br>
 * [Analysis of Mishandled Baggage](#Analysis-of-Mishandled-Baggage)<br>
 
 
@@ -123,6 +124,52 @@ An initial draft of our Storyboard created on Google Slides can be found [here](
 The main elements and visualizations on the Storyboard were created using Tableau Public. All of the visualizations on Tableau Public can be downloaded [here](https://public.tableau.com/app/profile/william.kim4690/viz/WeatherDelaysbyAirline_16734964116180/Security_Delays). All of these vizualizations are interactable by filtering them through desired airlines, aircraft manufacturers, years, and injury severity.
 
 
+## <b>Accidents Weather Analysis</b>
+
+Dataset: [here](https://github.com/billywkim/Final_Project/blob/main/Resources/AviationData_Weather.csv)
+
+Aviation accidents in relation to weather is a significant concern for the aviation industry. Weather conditions such as thunderstorms, icing, and turbulence can greatly affect the safety of flights and increase the risk of accidents. In this section, we will explore the types of weather conditions most commonly associated with aviation accidents, the frequency of aviation accidents with different weather conditions, whether certain types of aircraft are more prone to accidents in certain weather conditions, the severity of aviation accidents with different weather conditions, geographical regions that are more prone to aviation accidents due to weather conditions, and specific precautions that can be taken to prevent or mitigate aviation accidents in certain weather conditions.
+
+![image](https://user-images.githubusercontent.com/110706169/212215561-207c0b20-a926-49e9-b7de-bfe5a69e55f1.png)
+
+### Data Cleaning
+
+* Check % missing data and drop columns >35% missing
+* Filter the dataset where:
+	- Aircraft_Category = Airplane
+	- Country = United States
+	- Investigation_Type = Accident
+* Change date 'objects' to 'datetime'
+* Change latitude and longitude from strings to float
+* Split Location into City and State
+* Bucket Airport_Names with same labels
+* Bucket Airport_Code with same labels
+* Add 'Season' column
+* Bucket Registration_Numbers with same labels
+* Change 'Make' column to 0s and 1s instead of Y/N
+* Merged Injury_Severity labels
+
+### Types of Weather Conditions and Their Association with Aviation Accidents
+![image](https://user-images.githubusercontent.com/110706169/212218308-67ef79ae-ac37-4f17-8f0f-b2c8b9667aa6.png)![image](https://user-images.githubusercontent.com/110706169/212218278-6234d2f1-d7f7-4b2b-b099-9de89e523372.png)
+
+In the United States, the seasons are generally defined as spring (March-May), summer (June-August), fall (September-November), and winter (December-February). The specific weather conditions can vary greatly depending on the region of the country, but here is a general overview of what you might expect during each season:
+
+Spring: As the weather begins to warm up, many areas of the country will see increasing rainfall and thunderstorms. The northern regions may still see some snow and cold temperatures, while the southern regions will start to experience warmer weather.
+
+Summer: This is typically the warmest time of year in the US, with high temperatures and humidity in many regions. The southern and central regions of the country are particularly known for their hot and humid summers. Thunderstorms and hurricanes are also more common during this time in some areas.
+
+Fall: As the weather starts to cool down, many regions will experience changing foliage and mild temperatures. Rainfall and thunderstorms can still be common, but the weather is generally more stable than during spring.
+
+Winter: This is typically the coldest time of year in the US, with snow and ice storms in many northern regions, and freezing temperatures in many other areas of the country. Some southern regions may see milder temperatures, but heavy rainfall can still be a possibility.
+
+### Frequency of Aviation Accidents with Different Weather Conditions
+![image](https://user-images.githubusercontent.com/110706169/212218442-93e866dd-3371-490a-8c0c-bc3859eed472.png)
+
+### Aircraft and Weather Conditions
+![image](https://user-images.githubusercontent.com/110706169/212218520-241b66c6-bb73-4834-905a-c6488739b888.png)
+
+### Geographical Regions and Weather Conditions
+### Human Factors
 
 ## <b>Analysis of Mishandled Baggage</b>
 
