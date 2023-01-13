@@ -112,6 +112,8 @@ A screenshot can be seen below using the <b>join method</b> on PGAdmin SQL.
 
 ## <b>Dashboard</b>
 
+Dashboards and storyboards are important for data analysis because they provide a way for users to quickly and easily understand complex data sets so they can help users make better decisions by providing them with a clear and concise view of the data.
+
 ### <b>Storyboard</b>
 
 An initial draft of our Storyboard created on Google Slides can be found [here](https://docs.google.com/presentation/d/16ui3_aKnWDj3g7POys37TOuYBOLekHT9SUnBKHB52M0/edit#slide=id.gcb9a0b074_1_0). 
