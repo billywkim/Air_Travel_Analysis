@@ -121,6 +121,10 @@ The <b>Entity Relationship Diagram (ERD)</b> can be found below.
 
 ![ERD](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Connections_Quickdbd.PNG)
 
+A connection string has been built between our Machine Learning dataset [here](https://github.com/billywkim/Final_Project/blob/main/Delays_ML/Delays_ML.ipynb) and the PG Admin database.
+
+![ML_Connection](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Machine_Learning_Connection.PNG)
+
 
 
 ## <b>Dashboard</b>
