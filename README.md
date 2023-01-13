@@ -117,6 +117,10 @@ A screenshot can be seen below using the <b>join method</b> on PGAdmin SQL.
 
 ![SQL_join](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_join.PNG)
 
+The <b>Entity Relationship Diagram (ERD)</b> can be found below.
+
+![ERD](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Connections_Quickdbd.PNG)
+
 
 
 ## <b>Dashboard</b>
