@@ -54,11 +54,15 @@ The primary source of the data will be exported from raw CSV files by the [Burea
 
 With the datasets provided, we hope to create comprehensive analysis and visualizations for:
 
-* Overall analysis and comparison of the most common issues among airlines in the US
-* Probability of flight interruptions and problems
-* Correlation of flight accidents with time of day, cities, etc... 
-* Flight issues related to inclement weather 
-* Mishandled baggage
+* Understand air traffic volume and trends over past years
+* Explore and compare the most common US airlines and the issues they face
+* Create a Machine Learning model that can predict future flight delays and cancellations based off of past data
+* Investigate flight accidents in correlation to different airlines, aircraft manufacturers, and airport locations
+* Understand the severeties of flight accidents based on month, day of the week, and carrier
+* Evaluate how the frequence and severity of aviation accidents varies with different weather conditions
+* Examine the different causes of flight accidents and incidents, such as environmental issues, human factors, and aircraft performance
+* Research how TSA and security lines affect overall air travel experience based on different airports
+* Assess mishandled baggage data in comparison to different months and airlines
 
 
 
