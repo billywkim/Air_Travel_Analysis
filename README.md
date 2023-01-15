@@ -14,6 +14,7 @@
 * [Description of Source Data](#Description-of-Source-of-Data)<br>
 * [Main Topics We Hope to Address with the Data](#Main-Topics-We-Hope-to-Address-with-the-Data)<br>
 * [Description of Communication Protocols](#Description-of-Communication-Protocols)<br>
+* [Air Travel Overview](#Air-Travel-Overview)</b>
 * [Flight Delay Prediction Model](#Flight-Delay-Prediction-Model)<br>
 * [Database](#Database)<br>
 * [Dashboard](#Dashboard)<br>
@@ -58,8 +59,8 @@ With the datasets provided, we hope to create comprehensive analysis and visuali
 * Explore and compare the most common US airlines and the issues they face
 * Create a Machine Learning model that can predict future flight delays and cancellations based off of past data
 * Investigate flight accidents in correlation to different airlines, aircraft manufacturers, and airport locations
-* Understand the severeties of flight accidents based on month, day of the week, and carrier
-* Evaluate how the frequence and severity of aviation accidents varies with different weather conditions
+* Understand the severities of flight accidents based on month, day of the week, and carrier
+* Evaluate how the frequency and severity of aviation accidents varies with different weather conditions
 * Examine the different causes of flight accidents and incidents, such as environmental issues, human factors, and aircraft performance
 * Research how TSA and security lines affect overall air travel experience based on different airports
 * Assess mishandled baggage data in comparison to different months and airlines
@@ -70,6 +71,10 @@ With the datasets provided, we hope to create comprehensive analysis and visuali
 
 As the primary source of communication, a Slack group was created. Additionally, we will utilize the allotted time in class meetings to discuss our projects/assignments collaboratively.
 
+
+## <b>Air Travel Overview</b>
+
+Air travel has seen significant growth, with the number of passengers increasing steadily in the recent years. In the US there is a vast network of airports and airlines, with the largest airlines being American Airlines, Delta Air Lines, and United Airlines. The high season for air travel is during the summer, with July having the highest number of travelers, 81 million passengers on average. The low season is during the winter, with February averaging at 61.5 million passengers. Airfare prices tend to be higher during the summer high season and lower during the winter low season. 
 
 
 ## <b>Flight Delay Prediction Model</b>
