@@ -76,6 +76,12 @@ As the primary source of communication, a Slack group was created. Additionally,
 
 Air travel has seen significant growth, with the number of passengers increasing steadily in the recent years. In the US there is a vast network of airports and airlines, with the largest airlines being American Airlines, Delta Air Lines, and United Airlines. The high season for air travel is during the summer, with July having the highest number of travelers, 81 million passengers on average. The low season is during the winter, with February averaging at 61.5 million passengers. Airfare prices tend to be higher during the summer high season and lower during the winter low season. 
 
+<div align="center">
+
+![Number of Air Travel Passengers in US](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Number%20of%20Air%20Travel%20Passengers%20in%20US.png)
+
+</div>
+
 
 ## <b>Flight Delay Prediction Model</b>
 
