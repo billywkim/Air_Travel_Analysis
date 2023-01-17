@@ -82,6 +82,12 @@ Air travel has seen significant growth, with the number of passengers increasing
 
 </div>
 
+## <b>Flight Delays and Cancelations</b>
+
+In 2022 in the US there was a total of 5,625,620 flights operated. Out of these flights 4,335,485 arrived on time and 1,132,113 were delayed. This means that an enormous 20.12% of all flights were delayed. Additionally, 144,515 flights were cancelled, which is about 2.57% of all flights.
+
+Recent data from the US Bureau of Transportation Statistics for 2021 shows that air carrier delay is the primary cause, accounting for 41% of all flight delays. This means that issues such as overbooking, crew scheduling, and other operational issues within the airline are the primary reason for delays. Another significant cause of delays, accounting for 34% is categorized as aircraft arrives late. This includes situations where a holdup of a previous flight with the same aircraft causes delay for subsequent flight. Additionally, 17% of all delays were caused by National Airspace System (NAS) issues, which include problems with air traffic control systems and air traffic congestion. Extreme weather, such as strong winds, thunderstorms, and other severe weather conditions, is another notable source of flight delays, accounting for 7% of all delays. Interestingly, security delay, which includes issues with airport security and TSA procedures, is the least major cause of all flight delays, accounting for less than 1%. 
+
 
 ## <b>Flight Delay Prediction Model</b>
 
