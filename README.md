@@ -171,6 +171,14 @@ Please see [Delays_ML](https://github.com/billywkim/Final_Project/blob/main/Dela
 
 ## Flight Accidents & Incidents
 
+Aviation incidents and accidents are a major concern for the industry and the general public. In this analysis, we will delve deeper into the data to identify patterns and trends in flight incidents and accidents. We will examine the number of accidents by airlines, aircraft manufacturers, and the most common airports where incidents occur. This information can help us to understand key risk factors for future travelers. 
+From the data gathered by the National Transportation Safety Board (NTSB) between 2011 to 2021, the following analysis can be made for commercial air travel:
+* Delta Air Lines, accounted for more incidents and accidents than any other airline with 65, followed by Southwest with 55. SkyWest Airlines had the lowest count with only 1 incident. Moreover, Boeing aircrafts count for 56% of all commercial incidents and accidents.
+* California has the highest number of incidents and accidents with 28, closely followed by Texas and Georgia with 25, and Florida with 22.
+* The cities that experiences the most issues are similar among departures and arrival amounts. Atlanta encounters the most incidents, followed by Chicago, Los Angeles, Denver, and Dallas.
+* Incidents and accidents occur seasonally, peaking during June and December when air travel is most frequent. The lowest incidents occur on January, April, and November. Furthermore, travelers are 72% more likely to experience an issue on Mondays than on Sundays.
+* Environmental factors, such as inclement weather, are the primary cause of incidents and accidents. The second most common cause is human error and actions performed incorrectly. Intriguingly, faulty aircrafts and structural concerns only accounts for 17% of all incidents and accidents experienced during this period.
+
 
 
 ### <b>Accidents Weather Analysis</b>
