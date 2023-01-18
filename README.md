@@ -110,7 +110,7 @@ An initial draft of our Storyboard created on Google Slides can be found [here](
 
 ### <b>Tableau Visualizations</b>
 
-The main elements and visualizations on the Storyboard were created using Tableau Public. All of the visualizations on Tableau Public can be downloaded [here](https://public.tableau.com/app/profile/william.kim4690/viz/WeatherDelaysbyAirline_16734964116180/Security_Delays). All of these vizualizations are interactable by filtering them through desired airlines, aircraft manufacturers, years, and injury severity.
+The main elements and visualizations on the Storyboard were created using Tableau Public. All of the visualizations on Tableau Public can be viewed [here](https://public.tableau.com/app/profile/william.kim4690/viz/WeatherDelaysbyAirline_16734964116180/Story1?publish=yes). All of these vizualizations are interactable by filtering them through desired airlines, aircraft manufacturers, years, and injury severity.
 
 
 
