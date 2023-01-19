@@ -28,6 +28,7 @@
           * [Frequency of Aviation Accidents with Different Weather Conditions](#Frequency-of-Aviation-Accidents-with-Different-Weather-Conditions)<br>
           * [Aircraft and Weather Conditions](#Aircraft-and-Weather-Conditions)<br>
 * [Analysis of Mishandled Baggage](#Analysis-of-Mishandled-Baggage)<br>
+* [Summary](#Summary)<br>
 
 
 
@@ -170,7 +171,7 @@ Please see [here](https://github.com/billywkim/Final_Project/blob/main/Machine_L
 
 
 
-## Flight Accidents & Incidents
+## <b>Flight Accidents & Incidents</b>
 
 Aviation incidents and accidents are a major concern for the industry and the general public. In this analysis, we will delve deeper into the data to identify patterns and trends in flight incidents and accidents. We will examine the number of accidents by airlines, aircraft manufacturers, and the most common airports where incidents occur. This information can help us to understand key risk factors for future travelers. 
 From the data gathered by the National Transportation Safety Board (NTSB) between 2011 to 2021, the following analysis can be made for commercial air travel:
@@ -196,7 +197,7 @@ The dataset for the analysis can be found [here](https://github.com/billywkim/Fi
 
 
 
-#### Data Cleaning
+#### <b>Data Cleaning</b>
 
 * Check % missing data and drop columns >35% missing
 * Filter the dataset where:
@@ -213,7 +214,7 @@ The dataset for the analysis can be found [here](https://github.com/billywkim/Fi
 * Change 'Make' column to 0s and 1s instead of Y/N
 * Merged Injury_Severity labels
 
-#### Types of Weather Conditions and Their Association with Aviation Accidents
+#### <b>Types of Weather Conditions and Their Association with Aviation Accidents</b>
 ![image](https://user-images.githubusercontent.com/110706169/212218308-67ef79ae-ac37-4f17-8f0f-b2c8b9667aa6.png)![image](https://user-images.githubusercontent.com/110706169/212218278-6234d2f1-d7f7-4b2b-b099-9de89e523372.png)
 
 In the United States, the seasons are generally defined as spring (March-May), summer (June-August), fall (September-November), and winter (December-February). The specific weather conditions can vary greatly depending on the region of the country, but here is a general overview of what you might expect during each season:
@@ -229,7 +230,7 @@ Winter: This is typically the coldest time of year in the US, with snow and ice 
 #### Frequency of Aviation Accidents with Different Weather Conditions
 ![image](https://user-images.githubusercontent.com/110706169/212218442-93e866dd-3371-490a-8c0c-bc3859eed472.png)
 
-#### Aircraft and Weather Conditions
+#### <b>Aircraft and Weather Conditions</b>
 ![image](https://user-images.githubusercontent.com/110706169/212218520-241b66c6-bb73-4834-905a-c6488739b888.png)
 
 
@@ -247,3 +248,11 @@ Mishandled baggage is one of the common issue faced by travelers all around the 
 ![bag_delay](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/baggage_delay.jpg)
 
 </div>
+
+
+
+## <b>Summary</b>
+
+In conclusion, the data analysis of Common Issues & Delays in Air Travel has highlighted several key areas that contribute to flight disruptions. By understanding air traffic volume and trends over past years, we were able to explore and compare the most common US airlines and the issues they face. A Machine Learning model was also created that can predict future flight delays and cancellations based off of past data. We also investigated flight accidents in correlation to different airlines, aircraft manufacturers, and airport locations, and weather conditions.
+
+Furthermore, the research explored how TSA and security lines affect the overall air travel experience based on different airports and assessed mishandled baggage data in comparison to different months and airlines. These findings provide valuable insights that can be used to improve the overall air travel experience for passengers and enhance the safety of air travel.
