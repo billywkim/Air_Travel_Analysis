@@ -79,20 +79,9 @@ As the primary source of communication, a Slack group was created. Additionally,
 
 For our project, we decided to use PGAdmin SQL as our database. PGAdmin SQL is a powerful and scalable database management database system which means it can handle large amounts of data and high volumes of transactions. It is also compatible with a wide range of tools and technologies making it easy to integrate with other systems and applications which will be useful when connecting to our Machine Learning Model.
 
-A screenshot can be seen below using the <b>join method</b> on PGAdmin SQL.
-
-![SQL_Table_Schema](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_Tables_Schema.PNG)
-
-
-![SQL_join](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/SQL_join.PNG)
-
 The <b>Entity Relationship Diagram (ERD)</b> can be found below.
 
 ![ERD](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Connections_Quickdbd.PNG)
-
-A connection string has been built between our Machine Learning dataset [here](https://github.com/billywkim/Final_Project/blob/main/Delays_ML/Delays_ML.ipynb) and the PG Admin database.
-
-![ML_Connection](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Machine_Learning_Connection.PNG)
 
 
 
@@ -159,7 +148,15 @@ After comparing all of the models, Balanced Random Forest Classifier performed t
 
 This approach allows us to automate the process of predicting delays and to potentially improve upon it over time as new data becomes available.
 
-Please see [Delays_ML](https://github.com/billywkim/Final_Project/blob/main/Delays_ML/Delays_ML.ipynb) for our current Machine Learning progress.
+Please see [here](https://github.com/billywkim/Final_Project/blob/main/Machine_Learning/Delays_ML.ipynb) for our Machine Learning code.
+
+
+
+### <b>Flight CancelLation Prediction Model</b>
+Using the same logic as the Flight Delay Prediction Model, the Flight Cancellation Prediction Model was built by analyzing historical flight data and identifying patterns. Balanced Random Forest Classifier model was the most successful with a 75% accuracy score. The model uses a set of features and data parameters that are believed to be indicative of flight cancelations. Some of the features used would include data on flight schedules, such as departure and arrival times, as well as information on flight origins and destinations. The model then used an algorithm to identify the most important features and the relationships between them, which allows for more accurate predictions of flight cancelations.
+Overall, the model achieved some positive results, however there is still room for improvement. To increase the prediction index, it would be useful to incorporate additional data parameters in the analysis. These can include real-time weather data, air traffic control information, aircraft maintenance schedules, airport infrastructure, and security and TSA procedures. By including these additional data parameters, the model could more accurately predict flight cancelations and improve the prediction index.
+
+Please see [here](https://github.com/billywkim/Final_Project/blob/main/Machine_Learning/Cancellations_ML.ipynb) for our Machine Learning code.
 
 <div align="center">
 
