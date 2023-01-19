@@ -22,11 +22,10 @@
 * [Flight Delays and Cancellations](#Flight-Delays-and-Cancellations)<br>
      * [Flight Delay Prediction Model](#Flight-Delay-Prediction-Model)<br>
      * [Flight Cancellation Prediction Model](#Flight-Cancellation-Prediction-Model)<br>
-* [Flight Accidents & Incidents](#Flight-Accidents-&-Incidents)<br>
+* [Flight Accidents and Incidents](#Flight-Accidents-and-Incidents)<br>
      * [Accidents Weather Analysis](#Accidents-Weather-Analysis)<br>
           * [Types of Weather Conditions and Their Association with Aviation Accidents](#Types-of-Weather-Conditions-and-Their-Association-with-Aviation-Accidents)<br>
           * [Frequency of Aviation Accidents with Different Weather Conditions](#Frequency-of-Aviation-Accidents-with-Different-Weather-Conditions)<br>
-          * [Aircraft and Weather Conditions](#Aircraft-and-Weather-Conditions)<br>
 * [Analysis of Mishandled Baggage](#Analysis-of-Mishandled-Baggage)<br>
 * [Summary](#Summary)<br>
 
@@ -178,7 +177,7 @@ Please see [here](https://github.com/billywkim/Final_Project/blob/main/Machine_L
 
 
 
-## <b>Flight Accidents & Incidents</b>
+## <b>Flight Accidents and Incidents</b>
 
 Aviation incidents and accidents are a major concern for the industry and the general public. In this analysis, we will delve deeper into the data to identify patterns and trends in flight incidents and accidents. We will examine the number of accidents by airlines, aircraft manufacturers, and the most common airports where incidents occur. This information can help us to understand key risk factors for future travelers. 
 From the data gathered by the National Transportation Safety Board (NTSB) between 2011 to 2021, the following analysis can be made for commercial air travel:
