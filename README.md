@@ -10,10 +10,9 @@
 
 ## Table of Contents
 
-* [Reasons Why We Selected This Topic](#Reason-Why-We-Selected-This-Topic)<br>
+* [Introduction](#Introduction)<br>
 * [Description of Source Data](#Description-of-Source-of-Data)<br>
 * [Main Topics We Hope to Address with the Data](#Main-Topics-We-Hope-to-Address-with-the-Data)<br>
-* [Description of Communication Protocols](#Description-of-Communication-Protocols)<br>
 * [Database](#Database)<br>
 * [Dashboard](#Dashboard)<br>
      * [Storyboard](#Storyboard)<br>
@@ -21,6 +20,7 @@
 * [Air Travel Overview](#Air-Travel-Overview)<br>
 * [Flight Delays and Cancellations](#Flight-Delays-and-Cancellations)<br>
      * [Flight Delay Prediction Model](#Flight-Delay-Prediction-Model)<br>
+     * [Flight Cancellation Prediction Model](#Flight-Cancellation-Prediction-Model)<br>
 * [Flight Accidents & Incidents](#Flight-Accidents-&-Incidents)<br>
      * [Accidents Weather Analysis](#Accidents-Weather-Analysis)<br>
           * [Data Cleaning](#Data-Cleaning)<br>
@@ -31,7 +31,7 @@
 
 
 
-## <b>Reason Why We Selected This Topic</b>
+## <b>Introduction</b>
 
 For the past century, air travel became the most popular and convenient means of travel for long distances. Nevertheless, it is not uncommon to encounter various problems along the way, including aircraft technical issues and mishandled luggage. Additionally, the most common issue travelers face are delays and cancellations that can be caused by inclement weather or overbooking. 
 
@@ -49,7 +49,7 @@ Despite all of these issues, air travel still remains as the most popular choice
 
 We will explore multiple datasets of flight information and use statistical and machine learning techniques to predict whether an issue may arise while traveling.
 
-The primary source of the data will be exported from raw CSV files by the [Bureau of Transportation](https://transtats.bts.gov/Fields.asp?gnoyr_VQ=FGK), the [Federal Aviation Administration](https://www.asias.faa.gov/apex/f?p=100:1::::::), and the [Department of Homeland Security](https://www.dhs.gov/tsa-claims-data).
+The primary source of the data will be exported from raw CSV files by the [Bureau of Transportation](https://transtats.bts.gov/Fields.asp?gnoyr_VQ=FGK), the [Federal Aviation Administration](https://www.asias.faa.gov/apex/f?p=100:1::::::), the [Department of Homeland Security](https://www.dhs.gov/tsa-claims-data), and the [National Transportation Safety Board](https://www.ntsb.gov/safety/data/Pages/Data_Stats.aspx).
 
 
 
@@ -69,20 +69,17 @@ With the datasets provided, we hope to create comprehensive analysis and visuali
 
 
 
-## <b>Description of Communication Protocols</b>
-
-As the primary source of communication, a Slack group was created. Additionally, we will utilize the allotted time in class meetings to discuss our projects/assignments collaboratively.
-
-
-
 ## <b>Database</b>
 
 For our project, we decided to use PGAdmin SQL as our database. PGAdmin SQL is a powerful and scalable database management database system which means it can handle large amounts of data and high volumes of transactions. It is also compatible with a wide range of tools and technologies making it easy to integrate with other systems and applications which will be useful when connecting to our Machine Learning Model.
 
 The <b>Entity Relationship Diagram (ERD)</b> can be found below.
 
+<div align="center">
+
 ![ERD](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Connections_Quickdbd.PNG)
 
+</div>
 
 
 ## <b>Dashboard</b>
@@ -121,7 +118,12 @@ In 2022 in the US there was a total of 5,625,620 flights operated. Out of these 
 
 Recent data from the US Bureau of Transportation Statistics for 2021 shows that air carrier delay is the primary cause, accounting for 40% of all flight delays. This means that issues such as overbooking, crew scheduling, and other operational issues within the airline are the primary reason for delays. Another significant cause of delays, accounting for 35% is categorized as aircraft arrives late. This includes situations where a holdup of a previous flight with the same aircraft causes delay for subsequent flight. Additionally, 17% of all delays were caused by National Airspace System (NAS) issues, which include problems with air traffic control systems and air traffic congestion. Extreme weather, such as strong winds, thunderstorms, and other severe weather conditions, is another notable source of flight delays, accounting for 7% of all delays. Interestingly, security delay, which includes issues with airport security and TSA procedures, is the least major cause of all flight delays, accounting for less than 1%. 
 
+<div align="center">
+
 ![Flight Delays](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Delay.PNG)
+
+</div>
+
 
 
 ### <b>Flight Delay Prediction Model</b>
@@ -152,8 +154,10 @@ Please see [here](https://github.com/billywkim/Final_Project/blob/main/Machine_L
 
 
 
-### <b>Flight CancelLation Prediction Model</b>
+### <b>Flight Cancellation Prediction Model</b>
+
 Using the same logic as the Flight Delay Prediction Model, the Flight Cancellation Prediction Model was built by analyzing historical flight data and identifying patterns. Balanced Random Forest Classifier model was the most successful with a 75% accuracy score. The model uses a set of features and data parameters that are believed to be indicative of flight cancelations. Some of the features used would include data on flight schedules, such as departure and arrival times, as well as information on flight origins and destinations. The model then used an algorithm to identify the most important features and the relationships between them, which allows for more accurate predictions of flight cancelations.
+
 Overall, the model achieved some positive results, however there is still room for improvement. To increase the prediction index, it would be useful to incorporate additional data parameters in the analysis. These can include real-time weather data, air traffic control information, aircraft maintenance schedules, airport infrastructure, and security and TSA procedures. By including these additional data parameters, the model could more accurately predict flight cancelations and improve the prediction index.
 
 Please see [here](https://github.com/billywkim/Final_Project/blob/main/Machine_Learning/Cancellations_ML.ipynb) for our Machine Learning code.
@@ -184,7 +188,13 @@ Aviation accidents in relation to weather is a significant concern for the aviat
 
 The dataset for the analysis can be found [here](https://github.com/billywkim/Final_Project/blob/main/Resources/AviationData_Weather.csv)
 
+<div align="center">
+
 ![image](https://user-images.githubusercontent.com/110706169/212215561-207c0b20-a926-49e9-b7de-bfe5a69e55f1.png)
+
+</div>
+
+
 
 #### Data Cleaning
 
