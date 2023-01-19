@@ -24,7 +24,6 @@
      * [Flight Cancellation Prediction Model](#Flight-Cancellation-Prediction-Model)<br>
 * [Flight Accidents & Incidents](#Flight-Accidents-&-Incidents)<br>
      * [Accidents Weather Analysis](#Accidents-Weather-Analysis)<br>
-          * [Data Cleaning](#Data-Cleaning)<br>
           * [Types of Weather Conditions and Their Association with Aviation Accidents](#Types-of-Weather-Conditions-and-Their-Association-with-Aviation-Accidents)<br>
           * [Frequency of Aviation Accidents with Different Weather Conditions](#Frequency-of-Aviation-Accidents-with-Different-Weather-Conditions)<br>
           * [Aircraft and Weather Conditions](#Aircraft-and-Weather-Conditions)<br>
@@ -189,6 +188,12 @@ From the data gathered by the National Transportation Safety Board (NTSB) betwee
 * Incidents and accidents occur seasonally, peaking during June and December when air travel is most frequent. The lowest incidents occur on January, April, and November. Furthermore, travelers are 72% more likely to experience an issue on Mondays than on Sundays.
 * Environmental factors, such as inclement weather, are the primary cause of incidents and accidents. The second most common cause is human error and actions performed incorrectly. Intriguingly, faulty aircrafts and structural concerns only accounts for 17% of all incidents and accidents experienced during this period.
 
+<div align="center">
+
+![Airplane_Engineer](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Airplane_engineer.jpg)
+
+</div>
+
 
 
 ### <b>Accidents Weather Analysis</b>
@@ -205,25 +210,7 @@ The dataset for the analysis can be found [here](https://github.com/billywkim/Fi
 
 
 
-#### <b>Data Cleaning</b>
-
-* Check % missing data and drop columns >35% missing
-* Filter the dataset where:
-	- Aircraft_Category = Airplane
-	- Country = United States
-	- Investigation_Type = Accident
-* Change date 'objects' to 'datetime'
-* Change latitude and longitude from strings to float
-* Split Location into City and State
-* Bucket Airport_Names with same labels
-* Bucket Airport_Code with same labels
-* Add 'Season' column
-* Bucket Registration_Numbers with same labels
-* Change 'Make' column to 0s and 1s instead of Y/N
-* Merged Injury_Severity labels
-
 #### <b>Types of Weather Conditions and Their Association with Aviation Accidents</b>
-![image](https://user-images.githubusercontent.com/110706169/212218308-67ef79ae-ac37-4f17-8f0f-b2c8b9667aa6.png)![image](https://user-images.githubusercontent.com/110706169/212218278-6234d2f1-d7f7-4b2b-b099-9de89e523372.png)
 
 In the United States, the seasons are generally defined as spring (March-May), summer (June-August), fall (September-November), and winter (December-February). The specific weather conditions can vary greatly depending on the region of the country, but here is a general overview of what you might expect during each season:
 
@@ -235,11 +222,23 @@ Fall: As the weather starts to cool down, many regions will experience changing 
 
 Winter: This is typically the coldest time of year in the US, with snow and ice storms in many northern regions, and freezing temperatures in many other areas of the country. Some southern regions may see milder temperatures, but heavy rainfall can still be a possibility.
 
-#### Frequency of Aviation Accidents with Different Weather Conditions
+<div align="center">
+
+![image](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Weather_Graphs.png)
+
+</div>
+
+
+
+#### <b>Frequency of Aviation Accidents with Different Weather Conditions</b>
+
+There are two main weather conditions when it comes to aircraft control: VMC (Visual Meteorological Conditions) and IMC (Instrument Meteorological Conditions). VMC refers to conditions where the pilot is able to fly the aircraft using visual cues outside the cockpit, while IMC refers to conditions where the pilot must rely on instruments inside the cockpit to fly the aircraft safely. This could be caused by poor visibility, clouds, or inclement weather. Pilots must be trained and qualified to fly in both VMC and IMC conditions.
+
+<div align="center">
+
 ![image](https://user-images.githubusercontent.com/110706169/212218442-93e866dd-3371-490a-8c0c-bc3859eed472.png)
 
-#### <b>Aircraft and Weather Conditions</b>
-![image](https://user-images.githubusercontent.com/110706169/212218520-241b66c6-bb73-4834-905a-c6488739b888.png)
+</div>
 
 
 
