@@ -14,6 +14,7 @@
 * [Description of Source Data](#Description-of-Source-of-Data)<br>
 * [Main Topics We Hope to Address with the Data](#Main-Topics-We-Hope-to-Address-with-the-Data)<br>
 * [Database](#Database)<br>
+* [Data Cleaning](#Data-Cleaning)<br>
 * [Dashboard](#Dashboard)<br>
      * [Storyboard](#Storyboard)<br>
      * [Tableau Visualizations](Tableau-Visualizations)<br>
@@ -81,6 +82,13 @@ The <b>Entity Relationship Diagram (ERD)</b> can be found below.
 ![ERD](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Connections_Quickdbd.PNG)
 
 </div>
+
+
+
+## <b>Data Cleaning</b>
+
+Data cleaning is an important part of our analysis process to ensure the data is accurate, complete, and ready for analysis. The first step was to check for missing or incomplete data. Any missing or incomplete data was either removed or filled in with appropriate values. For example, when building the Machine Learning model, all the rows with null values were dropped. The next step was to check for outliers or extreme values in the data. Any outliers were either removed or transformed to make the data more representative of the overall population. The data was then checked for consistency and any inconsistencies were corrected. For example, many name variations for the same airline and airport were corrected to reflect only one consistent name. Finally, the data was formatted and structured in a way that was suitable for analysis.
+
 
 
 ## <b>Dashboard</b>
