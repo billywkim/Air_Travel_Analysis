@@ -189,7 +189,7 @@ From the data gathered by the National Transportation Safety Board (NTSB) betwee
 
 <div align="center">
 
-![Airplane_Engineer](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Airplane_engineer.jpg)
+![Broken_plane](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Broken_airplane.jpg)
 
 </div>
 
