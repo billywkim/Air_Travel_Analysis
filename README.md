@@ -229,15 +229,61 @@ Winter: This is typically the coldest time of year in the US, with snow and ice 
 
 
 
+### <b>Accidents Weather Analysis</b>
+
+Aviation accidents in relation to weather is a significant concern for the aviation industry. Weather conditions such as thunderstorms, icing, and turbulence can greatly affect the safety of flights and increase the risk of accidents. In this section, we will explore the types of weather conditions most commonly associated with aviation accidents, the frequency of aviation accidents with different weather conditions, whether certain types of aircraft are more prone to accidents in certain weather conditions, geographical regions that are more prone to aviation accidents due to weather conditions, and human error.
+
+The dataset for the analysis can be found [here](https://github.com/billywkim/Final_Project/blob/main/Resources/AviationData_Weather.csv)
+
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/110706169/212215561-207c0b20-a926-49e9-b7de-bfe5a69e55f1.png)
+
+</div>
+
+
+
+#### <b>Types of Weather Conditions and Their Association with Aviation Accidents</b>
+
+In the United States, the seasons are generally defined as spring (March-May), summer (June-August), fall (September-November), and winter (December-February). The specific weather conditions can vary greatly depending on the region of the country, but here is a general overview of what you might expect during each season:
+
+Spring: As the weather begins to warm up, many areas of the country will see increasing rainfall and thunderstorms. The northern regions may still see some snow and cold temperatures, while the southern regions will start to experience warmer weather.
+
+Summer: This is typically the warmest time of year in the US, with high temperatures and humidity in many regions. The southern and central regions of the country are particularly known for their hot and humid summers. Thunderstorms and hurricanes are also more common during this time in some areas.
+
+Fall: As the weather starts to cool down, many regions will experience changing foliage and mild temperatures. Rainfall and thunderstorms can still be common, but the weather is generally more stable than during spring.
+
+Winter: This is typically the coldest time of year in the US, with snow and ice storms in many northern regions, and freezing temperatures in many other areas of the country. Some southern regions may see milder temperatures, but heavy rainfall can still be a possibility.
+
+<div align="center">
+
+![Seasons](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Weather_Graphs.png)
+
+</div>
+
+
+
 #### <b>Frequency of Aviation Accidents with Different Weather Conditions</b>
 
 There are two main weather conditions when it comes to aircraft control: VMC (Visual Meteorological Conditions) and IMC (Instrument Meteorological Conditions). VMC refers to conditions where the pilot is able to fly the aircraft using visual cues outside the cockpit, while IMC refers to conditions where the pilot must rely on instruments inside the cockpit to fly the aircraft safely. This could be caused by poor visibility, clouds, or inclement weather. Pilots must be trained and qualified to fly in both VMC and IMC conditions.
 
 <div align="center">
 
-![image](https://user-images.githubusercontent.com/110706169/212218442-93e866dd-3371-490a-8c0c-bc3859eed472.png)
-
+![Freq WC](https://user-images.githubusercontent.com/110706169/212218442-93e866dd-3371-490a-8c0c-bc3859eed472.png)
+    
 </div>
+
+#### <b>Relationship Between Engine Configuration and Accident Risk in Different Weather Conditions</b>
+    
+In this section, we examine the relationship between engine configuration and the risk of accidents in different weather conditions.We found that the fewer engines a plane has, the more likely it is to have an accident. This trend could suggest that single-engine and twin-engine aircraft may be more prone to accidents in certain weather conditions.
+ <div align="center">
+   
+![Engines](https://user-images.githubusercontent.com/110706169/213612139-172411ee-40a7-4308-a238-14fcfb969b42.png)
+</div>
+It's important to note that while the number of engines on a plane can be a significant factor in the risk of accidents, it is not the only factor to consider. Other factors such as pilot error and maintenace also play a role; However, for the purpose of our analysis we will only take into account pilot error in a following section.    
+ 
+</div>
+
 
 
 
