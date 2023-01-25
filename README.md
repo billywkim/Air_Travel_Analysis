@@ -27,7 +27,7 @@
           * [Types of Weather Conditions and Their Association with Aviation Accidents](#Types-of-Weather-Conditions-and-Their-Association-with-Aviation-Accidents)<br>
           * [Frequency of Aviation Accidents with Different Weather Conditions](#Frequency-of-Aviation-Accidents-with-Different-Weather-Conditions)<br>
 * [Analysis of Mishandled Baggage](#Analysis-of-Mishandled-Baggage)<br>
-* [Summary](#Summary)<br>
+* [Summary and Future Analysis](#Summary-and-Future-Analysis)<br>
 
 
 
@@ -303,8 +303,18 @@ Mishandled baggage is one of the common issue faced by travelers all around the 
 
 
 
-## <b>Summary</b>
+## <b>Summary and Future Analysis</b>
 
 In conclusion, the data analysis of Common Issues & Delays in Air Travel has highlighted several key areas that contribute to flight disruptions. By understanding air traffic volume and trends over past years, we were able to explore and compare the most common US airlines and the issues they face. A Machine Learning model was also created that can predict future flight delays and cancellations based off of past data. We also investigated flight accidents in correlation to different airlines, aircraft manufacturers, and airport locations, and weather conditions.
 
 Furthermore, the research explored how TSA and security lines affect the overall air travel experience based on different airports and assessed mishandled baggage data in comparison to different months and airlines. These findings provide valuable insights that can be used to improve the overall air travel experience for passengers and enhance the safety of air travel.
+
+Some potential areas for future analysis to improve this project related to common issues and delays in air travel include:
+
+* Incorporating more data sources: In order to get a more comprehensive understanding of common issues and delays in air travel, it would be beneficial to incorporate data from a wider range of sources, such as passenger feedback and maintenance records.
+
+* Incorporating real-time data: To improve the accuracy and relevance of the analysis, it would be beneficial to incorporate real-time data and develop systems for monitoring flight performance and weather conditions in real-time.
+
+* Collaboration with other stakeholders: To improve the analysis of common issues and delays in air travel, it would be beneficial to collaborate with other stakeholders in the industry such as airlines, airports, and regulators to share data, insights, and develop solutions together.
+
+* Identifying the impact of COVID-19 pandemic on air travel: It can be analysed using data analytics on how it affected the air travel industry, how it impacted the delays and disruptions, and how can it be handled in the future.
