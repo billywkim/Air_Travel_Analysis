@@ -193,47 +193,36 @@ From the data gathered by the National Transportation Safety Board (NTSB) betwee
 
 </div>
 
+## <b>Accidents Weather Analysis</b>
 
+Aviation accidents in relation to weather is a significant concern for the aviation industry. Weather conditions such as thunderstorms, icing, and turbulence can greatly affect the safety of flights and increase the risk of accidents. In this section, we will explore the types of weather conditions most commonly associated with aviation accidents, the frequency of aviation accidents with different weather conditions, whether certain types of aircraft are more prone to accidents in certain weather conditions, and human error.
 
-### <b>Accidents Weather Analysis</b>
+The dataset for the analysis can be found [here](https://github.com/billywkim/Final_Project/blob/main/Resources/AviationData_Weather.csv), it contains approximately 18,000 entries. For the purpose of this analysis the following contains all data where: 
 
-Aviation accidents in relation to weather is a significant concern for the aviation industry. Weather conditions such as thunderstorms, icing, and turbulence can greatly affect the safety of flights and increase the risk of accidents. In this section, we will explore the types of weather conditions most commonly associated with aviation accidents, the frequency of aviation accidents with different weather conditions, whether certain types of aircraft are more prone to accidents in certain weather conditions, the severity of aviation accidents with different weather conditions, geographical regions that are more prone to aviation accidents due to weather conditions, and specific precautions that can be taken to prevent or mitigate aviation accidents in certain weather conditions.
+- Airplane_Category = 'Airplane'
+- Event_Type = 'Accident'
+- Country = 'USA'
+- Year = 2000 to 2021
 
-The dataset for the analysis can be found [here](https://github.com/billywkim/Final_Project/blob/main/Resources/AviationData_Weather.csv)
+#### <b>Data Cleaning</b>
+* Check % missing data and drop columns >35% missing
+* Filter the dataset where:
+	- Aircraft_Category = Airplane
+	- Country = United States
+	- Investigation_Type = Accident
+* Change date 'objects' to 'datetime'
+* Change latitude and longitude from strings to float
+* Split Location into City and State
+* Bucket Airport_Names with same labels
+* Bucket Airport_Code with same labels
+* Added Day/Month/Season columns
+* Bucket Registration_Numbers with same labels
+* Change 'Make' column to 0s and 1s instead of Y/N
+* Merged Injury_Severity labels
+* Filter Report_Status for analysis
+* Drop noisy columns
 
-<div align="center">
-
-![image](https://user-images.githubusercontent.com/110706169/212215561-207c0b20-a926-49e9-b7de-bfe5a69e55f1.png)
-
-</div>
-
-
-
-#### <b>Types of Weather Conditions and Their Association with Aviation Accidents</b>
-
-In the United States, the seasons are generally defined as spring (March-May), summer (June-August), fall (September-November), and winter (December-February). The specific weather conditions can vary greatly depending on the region of the country, but here is a general overview of what you might expect during each season:
-
-Spring: As the weather begins to warm up, many areas of the country will see increasing rainfall and thunderstorms. The northern regions may still see some snow and cold temperatures, while the southern regions will start to experience warmer weather.
-
-Summer: This is typically the warmest time of year in the US, with high temperatures and humidity in many regions. The southern and central regions of the country are particularly known for their hot and humid summers. Thunderstorms and hurricanes are also more common during this time in some areas.
-
-Fall: As the weather starts to cool down, many regions will experience changing foliage and mild temperatures. Rainfall and thunderstorms can still be common, but the weather is generally more stable than during spring.
-
-Winter: This is typically the coldest time of year in the US, with snow and ice storms in many northern regions, and freezing temperatures in many other areas of the country. Some southern regions may see milder temperatures, but heavy rainfall can still be a possibility.
-
-<div align="center">
-
-![image](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Weather_Graphs.png)
-
-</div>
-
-
-
-### <b>Accidents Weather Analysis</b>
-
-Aviation accidents in relation to weather is a significant concern for the aviation industry. Weather conditions such as thunderstorms, icing, and turbulence can greatly affect the safety of flights and increase the risk of accidents. In this section, we will explore the types of weather conditions most commonly associated with aviation accidents, the frequency of aviation accidents with different weather conditions, whether certain types of aircraft are more prone to accidents in certain weather conditions, geographical regions that are more prone to aviation accidents due to weather conditions, and human error.
-
-The dataset for the analysis can be found [here](https://github.com/billywkim/Final_Project/blob/main/Resources/AviationData_Weather.csv)
+This data contains all kinds of flights, from commercial to instructional to skydiving and everything in between.
 
 <div align="center">
 
@@ -260,7 +249,7 @@ Winter: This is typically the coldest time of year in the US, with snow and ice 
 ![Seasons](https://github.com/billywkim/Final_Project/blob/main/Resources/Screenshots/Weather_Graphs.png)
 
 </div>
-
+As we can see from the data, the majority of airplane accidents occur during the summer months, with over 35% of accidents happening during this season. This may suggest that warmer weather conditions and increased air traffic during the summer months contribute to a higher risk of accidents.
 
 
 #### <b>Frequency of Aviation Accidents with Different Weather Conditions</b>
@@ -269,24 +258,51 @@ There are two main weather conditions when it comes to aircraft control: VMC (Vi
 
 <div align="center">
 
-![Freq WC](https://user-images.githubusercontent.com/110706169/212218442-93e866dd-3371-490a-8c0c-bc3859eed472.png)
-    
+![Freq WC](https://user-images.githubusercontent.com/110706169/214718930-f93e065a-feec-44b2-8ce9-17ccb0ae4f36.png)
 </div>
+
+17,000 or about 95% of recorded accidents happened under VMC conditions. This data suggests that flying under VMC conditions, where pilots can rely on visual cues to navigate and make decisions, is more prone to accidents than flying under IMC conditions.This could be due to factors such as pilot error or lack of experience flying in adverse weather conditions.
+
+
 
 #### <b>Relationship Between Engine Configuration and Accident Risk in Different Weather Conditions</b>
     
-In this section, we examine the relationship between engine configuration and the risk of accidents in different weather conditions.We found that the fewer engines a plane has, the more likely it is to have an accident. This trend could suggest that single-engine and twin-engine aircraft may be more prone to accidents in certain weather conditions.
+In this section, we examine the relationship between engine configuration and the risk of accidents in different weather conditions.We found that the fewer engines a plane has, the more likely it is to have an accident. This trend could suggest that single-engine and twin-engine aircraft may be more prone to accidents in certain weather conditions. It this case we must note that we are only looking at the number of engines and not the performance of bigger or smaller engines.
+
  <div align="center">
    
 ![Engines](https://user-images.githubusercontent.com/110706169/213612139-172411ee-40a7-4308-a238-14fcfb969b42.png)
+    
+It's important to note that while the number of engines on a plane can be a significant factor in the risk of accidents, it is not the only factor to consider. Other factors such as pilot error and maintenace also play a role; However, for the purpose of our analysis we will only take into account pilot error in a following section.   
+![image](https://user-images.githubusercontent.com/110706169/214722439-e6ebbb42-1323-40e2-b6ef-60397a04f729.png)</div>
+  
+ From the data shown above we can see the Top Ten Manfucaturers by weather condition. Most of these manufacturers produce 1 and 2 small engine aircrafts specially Cessna, Piper, and Beech; who are the top 3 contenders for most their airplanes accounting for about 55.5% of total accidents from 2000-2021. Other large manufacturers, such as Boeing, offer a variety of different aircraft from 1, 2, and 4 engines. Boeing had a total of 239 accidents from 2000 - 2021.
+
+#### <b> Role of Human Factor in Aviation Accidents </b>
+
+In this section we analyzed what role pilot error plays in different weather conditions. We did this by filtering reports into 5 categories where the report indicated the cause being:
+
+* Pilot Error - keywords used  "pilot"
+* Weather - keywords used "weather", "climate", "rain", "snow", "thunder", "cloud"
+* Probable Cause - keywords used "Probable Cause"
+* Unknown - keywords used "Unknown"
+* Other - Any report that does not contain the keywords above.
+
+<div align = "center">
+    
+![image](https://user-images.githubusercontent.com/110706169/214713050-fbfb9b1f-973e-432a-82c4-716e633a4704.png)
+
 </div>
-It's important to note that while the number of engines on a plane can be a significant factor in the risk of accidents, it is not the only factor to consider. Other factors such as pilot error and maintenace also play a role; However, for the purpose of our analysis we will only take into account pilot error in a following section.    
- 
-</div>
+
+“Unknown” category are airplanes that were never found.
+“Other” category includes aircraft failure and events not related to the pilot or weather.
 
 
+Human error is the leading cause of airplane accidents, with 60.6% of reports attributed to pilot error or inadequate training. Even reports attributed to weather often mention human error as a secondary factor, highlighting the importance of continued training and safety measures in the aviation industry. 
 
+![image](https://user-images.githubusercontent.com/110706169/214714847-011990ea-cc8b-4cf0-8af8-41534297d9b8.png)
 
+Approx. 14.61% or 2,630 of these accidents were fatal.
 ## <b>Analysis of Mishandled Baggage</b>
 
 Mishandled baggage is one of the common issue faced by travelers all around the world. When baggage is not handled properly, it can lead to inconvenience and frustration for the traveler, who may be left without essential items or personal belongings for an extended period of time. Using data from the Bureau of Transportation for 2019, 2020, and 2021, an analysis was created to discover the following key points: 
